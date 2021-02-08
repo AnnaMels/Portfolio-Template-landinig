@@ -766,7 +766,7 @@ header {
     .gray-background {
         width: 70%;
         height: 700px;
-        background-image: url(../images/gray_background.jpg);
+        background-image: url(/images/gray_background.jpg);
         position: absolute;
         right: 0;
         top: 0;
