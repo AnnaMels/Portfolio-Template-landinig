@@ -1223,6 +1223,7 @@ header {
 
     .feedback {
         width: 100%;
+        display: none;
     }
 
     .feedback-item {
