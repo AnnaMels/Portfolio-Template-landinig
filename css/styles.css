@@ -814,9 +814,13 @@ input {
     }
 
     .projects-btn {
-        position: relative;
+        position: absolute;
         left: 850px;
-        top: -300px;
+        bottom: 60px;
+    }
+
+    .projects {
+        position: relative;
     }
 
     .navigation-list {
