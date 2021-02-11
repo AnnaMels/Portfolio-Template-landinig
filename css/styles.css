@@ -38,11 +38,25 @@ header {
     list-style-type: none;
 }
 
+
+
 .skills-description {
     color: #8491A0;
 }
 
+.info {
+    border-bottom-style: dashed;
+    border-bottom-color: #8491A0;
+    border-bottom-width: 1px;
+}
 
+input {
+    color: white;
+}
+
+.projects-button {
+    display: none;
+}
 
 @media screen and (min-width: 359px) and (max-width: 767px) {
     .navigation {
@@ -57,6 +71,16 @@ header {
         margin-top: 25px;
         background-color: #000000;
         display: none;
+    }
+
+ 
+
+    .skills li {
+        margin-top: 48px;
+    }
+    
+    .skills li:first-child {
+        margin-top: 0;
     }
 
 
@@ -111,6 +135,7 @@ header {
     .title-alignment {
         margin-left: 20px;
         margin-right: 20px;
+        margin-top: 50px;
     }
 
     .personal-information,
@@ -156,7 +181,7 @@ header {
     }
 
     .skills {
-        margin-top: 24px;
+        margin-top: 69px;
         margin-bottom: 0;
         padding-bottom: 64px;
     }
@@ -367,6 +392,7 @@ header {
         margin-top: 64px;
         margin-left: 20px;
         margin-right: 20px;
+        border-radius: 2px;
     }
 
     .plane,
@@ -399,6 +425,7 @@ header {
         padding-left: 0;
         margin-left: 20px;
         margin-right: 20px;
+        margin-top: 64px;
     }
 
     .feedback-list li {
@@ -539,6 +566,7 @@ header {
         height: 50px;
         background-color: #181823;
         border: 1px solid #181823;
+        color: white;
     }
 
     .message {
@@ -659,8 +687,8 @@ header {
     font-weight:  700;
     font-size: 16px;
     line-height: 24px;
-    margin-top: 48px;
     margin-bottom: 8px;
+    margin-top: 0;
 }
 
 .companies {
@@ -771,6 +799,24 @@ header {
         right: 0;
         top: 0;
         z-index: 0;
+    }
+
+    .projects-button {
+        display: block;
+        width: 247px;
+        height: 75px;
+        background-color: black;
+        border-color:#5221E6;
+        color: white;
+        font-weight: bold;
+        font-size: 18px;
+        line-height: 150%;
+    }
+
+    .projects-btn {
+        position: relative;
+        left: 850px;
+        top: -300px;
     }
 
     .navigation-list {
@@ -1516,7 +1562,11 @@ header {
 }
 
 
-
+@media screen and (min-width: 880px) and (max-width: 1439px) {
+    .hero {
+        padding-bottom: 164px;
+    }
+}
 
 /* Tablet-version*/
 
@@ -1524,6 +1574,10 @@ header {
 
     .menu-icon {
         display: none;
+    }
+
+    .info {
+        border-bottom: none;
     }
 
 
@@ -1585,6 +1639,11 @@ header {
         display: none;
     }
 
+
+    .work-experience {
+        padding-top: 184px;
+    }
+
     .robin-photo2 {
         display: block;
         max-width: 384px;
@@ -1614,7 +1673,6 @@ header {
     }
 
     .title-alignment {
-        margin-top: 450px;
         width: 688px;
         margin-left: 40px;
     }
@@ -1704,11 +1762,12 @@ header {
         flex-wrap: wrap;
         justify-content: center;
         margin-left: -72px;
+        margin-bottom: 0;
     }
 
     .skills li {
         margin-left: 72px;
-        flex-basis: calc(100% / 2 - 72px)
+        flex-basis: calc(100% / 2 - 72px);
     }
 
     .skills-item {
@@ -1938,6 +1997,7 @@ header {
         margin-left: auto;
         margin-right: auto;
         margin-top: 124px;
+        border-radius: 2px;
     }
 
     .dribbble-link {
@@ -1977,6 +2037,7 @@ header {
         justify-content: flex-end;
         margin-top: -325px;
         padding-left: 0;
+        margin-left: 20px;
     }
 
 
